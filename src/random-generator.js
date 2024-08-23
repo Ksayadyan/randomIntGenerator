@@ -74,15 +74,5 @@ const RandomIntGenerator = class {
   }
 }
 
-// const caller = async () => {
-//   const myClass = new RandomIntGenerator(5, 15);
-  
-//   for await (const val of myClass.generateInRangeUniqueGenerator()) {
-//     console.log(val);
-//   }
-// }
-
-// caller();
-
 module.exports = RandomIntGenerator;
 
